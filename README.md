@@ -11,7 +11,7 @@ This project fine-tunes a Vision Transformer (ViT) to classify brain MRI scans i
 - **Classes:** glioma, meningioma, notumor, pituitary
 - **Training setup:** 6 epochs, AdamW (lr = 2e-5), linear warmup (10% of steps), batch size 32
 - **Data split:** stratified 80/20 split of `Training/` → 4,480 train / 1,120 validation; `Testing/` (1,600 images) used **once** for final evaluation
-- **Selected checkpoint:best validation accuracy, epoch [0.9821 (val acc [4])
+- **Selected checkpoint:best validation accuracy, epoch [0.9821 (epoch 4)]
 - **Test Accuracy:[0.9381] (held-out `Testing/` set, evaluated after model selection)
 
 ### Classes
