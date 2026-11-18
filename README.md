@@ -86,7 +86,7 @@ curl -X POST "http://localhost:8000/predict" -F "file=@sample_mri.jpg"
 ## Installation
 ```bash
 git lfs install
-git clone [your-repo-url]
+git clone [https://github.com/<faridhasan2020>/brain-tumor-classifier]
 cd brain-tumor-classifier
 pip install -r requirements.txt
 ```
